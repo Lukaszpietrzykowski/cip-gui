@@ -1,0 +1,81 @@
+
+.login-panel {
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+
+.form-label{
+  width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out;
+}
+
+.form-label:focus{
+  border: 2px solid #215a80;
+}
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+
+  .alert {
+    margin-top: 1.5rem;
+  }
+
+  form {
+    margin-top: 2rem;
+  }
+
+  label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out;
+  }
+
+ 
+
+  .button {
+    display: inline-block;
+    font-weight: 500;
+    color: #fff;
+    background-color: #215a80;
+    border: 1px solid #215a80;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    border-radius: 10px;
+  }
+
+  .button:hover {
+    background-color: #215a80d4;
+    border-color: #215a80;
+  }
+

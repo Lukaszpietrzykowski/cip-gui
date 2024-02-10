@@ -1,0 +1,16 @@
+.buttonsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .twoButtons {
+    width: calc(50% - 0.6rem);
+    margin: 0.3rem;
+  }
+
+  @media (max-width: 600px) {
+    .twoButtons {
+      width: calc(100% - 0.6rem);
+    }
+  }
